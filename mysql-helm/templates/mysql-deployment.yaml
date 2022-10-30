@@ -22,7 +22,7 @@ spec:
         - containerPort: 3306
         env:
           - name: MYSQL_ROOT_PASSWORD
-#            value: wordpress-2020          
+            #value: wordpress-2020          
             valueFrom:
               secretKeyRef:
                 name: mysql
